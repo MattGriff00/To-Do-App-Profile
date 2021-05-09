@@ -9,7 +9,7 @@ export default function Home(){
             path="/route"
             component={() => {
               var link = document.createElement("a");
-              link.href = "https://www.ign.com";
+              link.href = "https://www.develop-griffin.com/";
               document.body.appendChild(link);
 
               link.click();
