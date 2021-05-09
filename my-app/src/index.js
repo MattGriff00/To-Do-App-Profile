@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Home from './components/home'
 
 
 const DATA = [
@@ -13,6 +14,7 @@ const DATA = [
 ReactDOM.render(
   <React.StrictMode>
     <App tasks={DATA} />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
